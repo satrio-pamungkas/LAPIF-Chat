@@ -1,0 +1,1011 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.layout-img {
+    width: 100%;
+}
+
+.btn-lapif-primary {
+    color: #fff;
+    background-color: #5157F8;
+    border-color: #5157F8;
+}
+
+/* navbar started */
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 110px;
+    height: 32px;
+}
+
+.nav-font-custom {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-lapif-primary {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Ended */
+
+
+/* Banner 1 Started */
+#banner-1 {
+    height: 680px;
+    margin: 0;
+}
+
+.banner-1-bg {
+    background-image: url("../img/bg.svg");
+    margin: 0;
+    height: 500px;
+}
+
+.banner-1-bgshadow {
+    padding: 100px 0px 0px 0px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.banner-1-title {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.banner-1-desc {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.banner-1-box-fitur {
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    padding: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.banner-1-fiturImage>img {
+    width: 90px;
+}
+
+/* Banner 1 Ended */
+
+/* Banner 2 Started */
+#banner-2 {
+    height: auto;
+}
+
+.banner-2-title-count {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2C3E50;
+
+}
+
+.banner-2-count {
+    font-size: 45px;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    color: #2C3E50;
+}
+
+.count-1 {
+    color: #7579E7;
+}
+
+.count-2 {
+    color: #FDB01A;
+}
+
+.count-3 {
+    color: #50CD8A;
+}
+
+.banner-2-description-count {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Banner 2 Ended */
+
+/* Banner 3 Started */
+#banner-3 {
+    height: auto;
+}
+
+.banner-3-img-size {
+    width: 400px;
+    height: auto;
+}
+
+.banner-3-title {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    line-height: 44px;
+    color: #322d49;
+    font-weight: 600;
+    text-align: left;
+}
+
+.banner-3-desc-layout {
+    text-align: left;
+}
+
+.banner-3-desc {
+    font-family: Poppins, sans-serif;
+    color: #322d49;
+    opacity: 1;
+}
+
+/* Banner 3 Ended */
+
+/* Banner 4 Started */
+#banner-4 {
+    height: auto;
+}
+
+.banner-4-img-size {
+    width: 250px;
+    height: auto;
+}
+
+.banner-4-title {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    line-height: 44px;
+    color: #322d49;
+    font-weight: 600;
+    text-align: left;
+}
+
+.banner-4-desc-layout {
+    text-align: left;
+}
+
+.banner-4-desc {
+    font-family: Poppins, sans-serif;
+    color: #322d49;
+    opacity: 1;
+}
+
+/* Banner 4 Ended */
+
+/* Banner 5 Started */
+#banner-5 {
+    height: auto;
+}
+
+.banner-5-title {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    color: #322d49;
+    font-weight: 600;
+    text-align: center;
+}
+
+.banner-5-desc {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+.slider-next-back-layout {
+    margin-top: 7rem;
+}
+
+.slider-next-back-layout img {
+    width: 60px;
+    height: 60px;
+    margin: auto auto auto auto;
+}
+
+.testimonial-line {
+    height: 1px;
+    width: 100%;
+    background-color: #dddddd;
+    margin-top: 20px;
+}
+
+.testimonial {
+    background-color: #5157F8;
+    padding: 25px 60px 25px 60px;
+    width: 744px;
+    border-radius: 40px;
+    box-shadow: 0px 20px 40px 0px rgb(0 0 0 / 10%);
+    margin-bottom: 30px;
+}
+
+.testimonial:nth-child(n+1) {
+    background-color: #5157F8;
+}
+
+.testimonial:nth-child(n+2) {
+    background-color: #6c5ce7;
+}
+
+.testimonial:nth-child(n+3) {
+    background-color: #0984e3;
+}
+
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+}
+
+.chat-bubble {
+    width: fit-content;
+}
+
+.chat-bg-typing {
+    background-color: #ededed;
+}
+
+.chat-mymine {
+    background-color: #c2befc;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.testimonial-desc {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    line-height: 32px;
+    color: white;
+    text-align: center;
+}
+
+.testimonial-profile {
+    padding: 32px;
+    display: flex;
+}
+
+.testimonial-profile span {
+    font-family: Poppins, sans-serif;
+    font-style: italic;
+    color: yellow;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.testimonial-profile span img {
+    margin-right: 8px;
+}
+
+.testimonial-nama {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.testimonial-react {
+    width: auto;
+    align-items: center;
+    margin: auto;
+}
+
+.testimonial-react-icon {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+.testimonial-photo {
+    width: 60px;
+    height: 60px;
+}
+
+.testimonial-info {
+    margin-left: 16px;
+    text-align: left;
+}
+
+.testimonial-info h5 {
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.testimonial-info p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: normal;
+    margin-bottom: 0px;
+    color: white;
+}
+
+/* Banner 5 Ended */
+
+/* Footer Started */
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    background-color: #F5F6FF;
+    text-align: center;
+
+}
+
+.hyperlink {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hyperlink ul {
+    padding: 0;
+}
+
+.hyperlink li {
+    display: inline;
+}
+
+.hyperlink a {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: black;
+    text-decoration: none;
+}
+
+#copyright {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 300px;
+    color: black;
+
+}
+
+/* Footer Ended */
+
+/* Login & Forgot Password CSS Started */
+.bg-login {
+    background: url(../img/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.formlog,
+.formfgpasswd {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.formlog h3,
+.formfgpasswd h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #5157F8;
+    text-align: center;
+    font-size: 40px;
+}
+
+.formlog p,
+.formfgpasswd p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #A2A4E2;
+    text-align: center;
+    font-size: 20px;
+}
+
+.formlog form,
+.formfgpasswd form {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    width: 76%;
+}
+
+.formlog form label,
+.formfgpasswd form label {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A2A4E2;
+}
+
+.formlog form input,
+.formfgpasswd form input {
+    border: 2px solid #5157F8;
+    background-color: #fff;
+    border-radius: 10px;
+    /* text-indent: 10px; */
+}
+
+.formlog form .forgot,
+.formfgpasswd form .descfgpasswd {
+    font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+    color: #A2A4E2;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+    transition: opacity .5s ease-in-out;
+}
+
+:focus::-webkit-input-placeholder {
+    opacity: 0.5;
+}
+
+.formlog form a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #A2A4E2;
+    text-decoration: none;
+}
+
+.formlog form button,
+.formfgpasswd form button {
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #5157F8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #5157F8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 81, 255, 0.25);
+}
+
+.formlog form button:hover {
+    background-color: #3539a0;
+    cursor: pointer;
+}
+
+.bg-fg-passwd {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url(../img/bg.svg) no-repeat center center fixed;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 25px 0px 0px 0px;
+}
+
+#btnFgPasswd,
+#btnMasuk {
+    width: 100%;
+    border-color: #5157F8;
+    background-color: #5157F8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#btnFgPasswd:hover,
+#btnMasuk:hover {
+    background-color: #3539a0;
+    cursor: pointer;
+}
+
+/* Login & Forgot Password CSS Ended */
+
+/* Pelaporan dan Aspirasi CSS Started */
+#banner-1-asp-pengaduan {
+    height: 500px;
+    background-image: url('../img/bg.svg');
+    margin: 0;
+}
+
+.banner-1-bgshadow-asp-pengaduan {
+    padding: 100px 0px 0px 0px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.562);
+}
+
+/* warning!!!! */
+.header {
+    margin-top: 60px;
+    background: black;
+}
+
+.header .background {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.title-asp-pgd {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    -webkit-text-stroke: 0.4px black;
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description-asp-pgd {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-text-stroke: 0.2px black;
+    color: white;
+    position: absolute;
+    top: 215px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.m-asp-pengaduan-custom {
+    margin: 200px 0px 200px 0px;
+}
+
+/* white    -background */
+.white-background {
+    width: 100%;
+    height: 600px;
+}
+
+/* new form <use> */
+.new-form {
+    width: 50%;
+}
+
+/* Pelaporan dan Aspirasi CSS Ended */
+
+/* Dashboard Admin Started */
+.dashboard-head .dashboard-text-header #title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+    -webkit-text-stroke: 0.4px black;
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.dashboard-head {
+    background: black;
+}
+
+.dashboard-head .dashboard-bg {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.dashboard-bg-card {
+    background-color: #e5e6f7;
+}
+
+.table-ungu {
+    background-color: #5157F8;
+    color: white;
+}
+
+.check {
+    background-image: url("../img/check.svg");
+}
+
+.expand {
+    background-image: url("../img/expand.svg");
+}
+
+.delete {
+    background-image: url("../img/delete.svg");
+}
+
+.check:hover,
+.expand:hover,
+.delete:hover {
+    filter: brightness(80%);
+}
+
+#button-col>button {
+    width: 30px;
+    height: 25px;
+    padding: 0;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.pagin-primary-active .page-link {
+    background-color: #5157F8;
+    border-color: #5157F8;
+    color: white;
+    z-index: 3;
+}
+
+.pagin-primary-unactive {
+    color: #5157F8;
+}
+
+.btn-sub-nav {
+    display: inline-block;
+    padding: .375rem .75rem;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.btn-sub-nav.unactive {
+    color: #322d49;
+    cursor: default;
+}
+
+/* Dashboard Admin Ended */
+/* 404 */
+.img-fluid {
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#message-ctn {
+    height: 400px;
+    overflow: auto;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* Banner 1 XL started */
+    #banner-1 {
+        height: 992px;
+        margin: 0;
+    }
+
+    /* Banner 1 XL Ended */
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /* Banner 1 LG started */
+    #banner-1 {
+        height: 1040px;
+        margin: 0;
+    }
+
+    /* Banner 1 LG Ended */
+
+    /* Banner 3 LG Started */
+    .banner-3-img-size {
+        width: 300px;
+    }
+
+    /* Banner 3 LG Ended */
+
+    /* Banner 5 LG Started */
+    .testimonial {
+        width: 100%;
+        padding: 32px 32px 32px 32px;
+    }
+
+    .testimonial-desc {
+        font-size: 1rem;
+    }
+
+    .slider-next-back-layout {
+        text-align: center;
+    }
+
+    .slider-next-back-layout img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial-react {
+        justify-content: center;
+    }
+
+    .testimonial-react-icon {
+        display: block;
+    }
+
+    .testimonial-info h5 {
+        font-size: calc(2rem - 2vw);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .testimonial-photo {
+        width: calc(4rem - 2.1vw);
+        height: calc(4rem - 2.1vw);
+    }
+
+    .testimonial-profession {
+        font-size: 18px;
+    }
+
+    /* Banner 5 LG Ended */
+
+    /* Pelaporan dan Aspirasi LG Started */
+    .new-form {
+        width: 80%;
+    }
+
+    .title-asp-pgd {
+        font-size: 30px;
+        font-weight: 600;
+        left: 50%;
+        width: 400px;
+    }
+
+    .description-asp-pgd {
+        font-size: 18px;
+        width: 250px;
+    }
+
+    /* Pelaporan dan Aspirasi LG Ended */
+
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    /* Banner 1 MD started */
+    #banner-1 {
+        height: 1140px;
+        margin: 0;
+    }
+
+    .banner-1-title {
+        font-size: calc(11vw - 1rem);
+    }
+
+    .banner-1-desc {
+        font-size: calc(1vw + 1rem - 1px);
+    }
+
+    /* Banner 1 MD ended */
+    .banner-3-img-size {
+        width: calc(65vw - 1rem);
+    }
+
+    .banner-4-img-size {
+        width: calc(60vw - 1rem);
+    }
+
+    /* Banner 5 MD Started */
+    .testimonial {
+        width: 100%;
+        padding: 32px 32px 32px 32px;
+    }
+
+    .slider-next-back-layout {
+        padding: 0px 30px 0px 30px;
+        display: block;
+    }
+
+    .slider-next-back-layout img {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .testimonial-profile {
+        display: block;
+        padding-bottom: 0px;
+    }
+
+    .testimonial-nama {
+        width: 100%;
+    }
+
+    .testimonial-react {
+        width: 100%;
+        justify-content: center;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .testimonial-react-icon {
+        display: block;
+    }
+
+    .testimonial-info h5 {
+        font-size: calc(2rem - 2.5vw);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .testimonial-photo {
+        width: calc(4rem - 2.1vw);
+        height: calc(4rem - 2.1vw);
+    }
+
+
+
+    /* Banner 5 MD */
+
+    /* Pelaporan dan Aspirasi MD Started */
+    .new-form {
+        width: 80%;
+    }
+
+    .title-asp-pgd {
+        font-size: 25px;
+        font-weight: 600;
+        left: 50%;
+        width: 400px;
+    }
+
+    .description-asp-pgd {
+        font-size: 16px;
+        width: 250px;
+    }
+
+
+    /* Pelaporan dan Aspirasi MD Ended */
+    .white-background {
+        width: 100%;
+        height: 890px;
+    }
+
+    /* Dashboard MD Started*/
+    .dashboard-head .dashboard-text-header #title {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    /* Banner 1 SM started */
+
+    #banner-1 {
+        height: calc(100rem - 105vw);
+        margin: 0;
+    }
+
+    .banner-1-title {
+        font-size: 50px;
+    }
+
+    .banner-1-desc {
+        font-size: 19px;
+    }
+
+    /* Banner 1 SM ended */
+    .banner-3-img-size {
+        width: calc(65vw - 1rem);
+    }
+
+    .banner-4-img-size {
+        width: calc(60vw - 1rem);
+    }
+
+    /* Banner 5 SM started */
+    .slider-next-back-layout {
+        padding: 0px 25px 0px 25px;
+        display: none;
+    }
+
+    .testimonial {
+        width: auto;
+        padding: 32px 32px 32px 32px;
+    }
+
+    .testimonial-nama {
+        width: 100%;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .testimonial-react {
+        width: 100%;
+        justify-content: center;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .testimonial-react-icon {
+        display: block;
+        width: auto;
+    }
+
+    .testimonial-profile {
+        margin: 0px;
+        padding: 0px;
+        display: block;
+    }
+
+    .testimonial-info h5 {
+        font-size: calc(1rem - 0.5vw);
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .testimonial-info p {
+        font-size: 12px;
+    }
+
+
+    .testimonial-photo {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Banner 5 SM Ended */
+
+    /* Pelaporan dan Aspirasi SM Started */
+    .new-form {
+        width: 80%;
+    }
+
+    .title-asp-pgd {
+        font-size: 25px;
+        font-weight: 600;
+        width: 300px;
+    }
+
+    .description-asp-pgd {
+        font-size: 16px;
+        width: 200px;
+    }
+
+    /* Pelaporan dan Aspirasi SM Ended */
+    .white-background {
+        width: 100%;
+        height: 900px;
+    }
+
+    /* Dashboard SM Started */
+    .dashboard-head .dashboard-text-header #title {
+        font-size: 22px;
+        width: 250px;
+    }
+}
